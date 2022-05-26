@@ -14,9 +14,9 @@
      <?php
     echo '<p>\This is a change from replit</p>';
     ?>
-     <?php
-    echo '<p>\This is a change from VSCODE</p>';
-    ?>
+    
+  <p>This is a change from vscode </p>'
+  
   
   </body>
 </html>
