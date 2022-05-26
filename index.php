@@ -8,6 +8,12 @@
     <?php
     echo '<p>This is PHP!</p>';
     ?>
+    <p>
+      Hellow frim github
+    </p>
+     <?php
+    echo '<p>\This is a change from replit</p>';
+    ?>
   
   </body>
 </html>
