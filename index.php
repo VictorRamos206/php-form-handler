@@ -9,7 +9,7 @@
     echo '<p>This is PHP!</p>';
     ?>
     <p>
-      Hellow frim github
+      Hello from github
     </p>
      <?php
     echo '<p>\This is a change from replit</p>';
