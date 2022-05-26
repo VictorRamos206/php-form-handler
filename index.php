@@ -3,19 +3,28 @@
     <title>PHP Test Page</title>
   </head>
   <body>
-    <h1>PHP Test Page hello from github
-    </h1>
+    <h1>The Worlds Smallest Form Handler</h1>
+
     <?php
-    echo '<p>This is PHP!</p>';
-    ?>
-    <p>
-      Hello from github
-    </p>
-     <?php
-    echo '<p>\This is a change from replit</p>';
-    ?>
+// "if it is raining {bring a jacket} or else {dont bring a jacket}"
+  if(isset($_POST["FirstName"])){//show data 
+      
+    echo $_POST["FirstName"];
+                                 
+  }else{//show form
+    echo  
+      '
+<form method="post" action="">
     
-  <p>This is a change from vscode </p>'
+   <p>First Name: <input type="text" name="FirstName" /></p>
+
+    <p><input type="submit"/></p>
+    
+  </form>
+          ';
+  }
+
+    ?>
   
   
   </body>
