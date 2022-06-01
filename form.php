@@ -66,27 +66,13 @@
     </div>
     <div class="col-sm-8">
       <h2>PHP Form Handler</h2>
-
-            <?php
-        // "if it is raining {bring a jacket} or else {dont bring a jacket}"
-        if(isset($_POST["FirstName"])){//show data 
-            
-            echo $_POST["FirstName"];
-                                        
-        }else{//show form
-            echo  
-            '
-                <form method="post" action="">
-                    <div class="mb-3 mt-3">
-                    <label for="FirtName">First Name</label>
-                    <input type="text" class="form-control" id="FirtName" placeholder="Enter your first name" name="FirtName">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-                ';
-        }
-            ?>
-
+      <form method="post" action="">
+        <div class="mb-3 mt-3">
+          <label for="FirstName">First Name:</label>
+          <input type="text" class="form-control" id="FirstName" placeholder="Enter your first name" name="FirstName">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
   </div>
 </div>
@@ -97,5 +83,3 @@
 
 </body>
 </html>
-
-
